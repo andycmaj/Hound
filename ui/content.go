@@ -45,5 +45,13 @@ func init() {
 				"js/excluded_files.js",
 			},
 		},
+
+        "/repos.html": &content{
+            template: "repos.tpl.html",
+            sources: []string{
+                "js/common.js",
+                "js/repos.js",
+            },
+        },
 	}
 }

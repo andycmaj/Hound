@@ -10,7 +10,10 @@ a {
   color: #09f;
 }
 
-.link-gray { color: #aaa }
+.link-gray {
+  color: #aaa;
+  margin-left: 20px;
+}
 
 input {
   font-family: inherit;
@@ -40,15 +43,22 @@ button:focus {
   box-shadow: 0 0 6px rgba(0,153,255,.75);
 }
 
-#root {
-  max-width: 960px;
+#root, #nav {
   margin: 0 auto;
+  max-width: 960px;
+}
+
+#root {
   padding: 0 20px 20px 20px;
 }
 
+#nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
 
 #input {
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 
